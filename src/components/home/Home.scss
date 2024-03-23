@@ -1,0 +1,17 @@
+
+@import "../../index";
+
+.heading {
+    margin: 0px auto;
+    width: 25%;
+    color: $headingColor;
+}
+.search-box {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.seachinpupt{
+    width: 25%;
+    @extend .margin-10;
+}
